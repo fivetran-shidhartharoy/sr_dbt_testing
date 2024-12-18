@@ -1,0 +1,1 @@
+SELECT TIME_STAMP, CONNECTOR_ID from {{ source("fivetran_log", "log" )}}
